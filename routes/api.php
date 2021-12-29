@@ -19,6 +19,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/feature1', function() {
+    #fix feature
     return 'feature1';
 });
 
